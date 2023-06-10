@@ -17,3 +17,5 @@ resposta = requisicao.json()
 mensagem = resposta["choices"][0]["message"]["content"]
 print(mensagem)
 
+
+#By PetryckSlater
