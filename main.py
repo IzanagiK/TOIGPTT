@@ -1,6 +1,6 @@
 import requests
 import json
-API_KEY = ""
+API_KEY = "ColocarKeyAqui"
 text = open("test.txt")
 headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 link = "https://api.openai.com/v1/chat/completions"
